@@ -11,8 +11,8 @@ let onReadyStateChange = function (onSuccess) {
 };
 
 const onSuccess = function (response) {
-    const eventManager = EventManagerFactory.create(response.events, response.types);
-    eventManager.run();
+    const {eventManager, supportedEvents} = EventManagerFactory.create(response.events, response.types);
+    eventManager.run(supportedEvents);
 };
 
 xhttp.onreadystatechange = onReadyStateChange(onSuccess);

@@ -1,5 +1,6 @@
 for (var i = 0; i < 5; i++) {
+    var j =0;
     setTimeout(function () {
-        console.log(i);
-    }, 1000)
+        console.log(">",j++);
+    }, 1000* i)
 }
