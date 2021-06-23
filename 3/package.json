@@ -1,0 +1,16 @@
+{
+  "name": "3",
+  "version": "1.0.0",
+  "description": "En este caso, tenemos un código usando el objeto `Promise` (Promesa). Las *promises*  (promesas) nos permiten manejar situaciones asíncronas en nuestras ejecuciones,  pero tenemos un pequeño problema… No es una solución totalmente cross-browser.  Sabemos que no funciona en Internet Explorer así que nos gustaría saber cómo  modificarías nuestro código (`test.js`) para que funcione correctamente. Implementaria babel para solucionar este problema y me iria por una libreria que me permita transpilar que se llama babel-polyfill",
+  "main": "test.js",
+  "scripts": {
+    "build": "babel test_modified.js --out-dir es5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

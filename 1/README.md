@@ -7,6 +7,7 @@ y responder a las siguientes cuestiones.
 1. En el fragmento de código de nuestro archivo (`test.js`) podemos encontrar
  hasta 3 variables. ¿Podrías decirnos cuál sería el valor de todas ellas al 
  finalizar la ejecución del script?
+  # Solucion
  el valor de color es : 
 ```
 {
@@ -20,7 +21,9 @@ y responder a las siguientes cuestiones.
 2. Modifica el código para que las variables `rgb` y `wb` mantengan sus valores 
 iniciales y `colors` tenga los valores de ambas al finalizar la ejecución del 
 script.
+ # Solucion
 planteo en vez de un Object.assing crear una nueva basada en ecma... 
+
 ```
 const colors_2 = {...rgb, ...wb}
 ```
@@ -28,6 +31,8 @@ const colors_2 = {...rgb, ...wb}
 El código de nuestro script no funciona y necesitamos que se ejecute también 
 en este navegador. ¿Sabrías identificar cuál es el problema? ¿Qué solución nos
  propones?
+ # Solucion
+ Hacer un reduce en ultima instancia usar webpack para cubrir la necesidad o alguna libreria como modernizer. o babel par transpilar a es5:
  ```
  var objs = [rgb, wb],
     result =  objs.reduce(function (r, o) {

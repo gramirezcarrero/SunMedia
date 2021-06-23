@@ -77,3 +77,11 @@ npm run build:es6
 
 Para la entrega de la prueba realizada, será necesario que el código se suba a un repositorio con acceso público. 
 Animamos al envío de la misma ya que valoraremos la prueba con independencia de si hay algún ejercicio no completado. 
+
+
+## Solucion
+Para la prueba y scripts se uso node version:  v12.22.1
+la tarea de bash tiene los pasos para instalar y copiar los archivos a public.
+```
+./build.sh
+```

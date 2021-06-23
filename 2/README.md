@@ -9,6 +9,8 @@ nos devuelve el código es el mismo valor en cada iteración.
  El codigo que hay primero hace el bucle de repeticion hasta 5 y luego se ejecuta el settimeout y cada 1000 ms imprime 5
 2. Sabiendo que el output que buscamos es el que encuentras bajo estas líneas… 
 ¿Cómo solucionarías el fragmento de código para que el output sea el deseado?
+ # Solucion
+ 
 ```
 for (var i = 0; i < 5; i++) {
     var j =0;

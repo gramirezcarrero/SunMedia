@@ -22,3 +22,7 @@ qué es lo que se pide, así como el código asociado a la prueba.
 
 La prueba puede subirse a algún repositorio público al que podamos tener 
 acceso desde el equipo de desarrollo de SunMedia. 
+
+# Cada Respuesta esta en la carpeta
+
+Quedo atento a cualquier inquietud. 
